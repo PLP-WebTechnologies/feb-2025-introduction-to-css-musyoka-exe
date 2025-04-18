@@ -1,0 +1,54 @@
+/* General Reset for Consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector 1: ID Selector (#main-header) */
+#main-header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Add padding inside the header */
+    font-family: 'Arial', sans-serif; /* Use Arial font */
+    border-bottom: 5px solid #388E3C; /* Add a green bottom border */
+}
+
+/* Selector 2: Class Selector (.content p) */
+.content p {
+    font-family: 'Georgia', serif; /* Use Georgia font for paragraphs */
+    font-size: 18px; /* Increase font size */
+    line-height: 1.6; /* Improve readability with line spacing */
+    margin: 20px; /* Add space around paragraphs */
+    color: #333; /* Dark gray text for contrast */
+}
+
+/* Selector 3: Class Selector (.highlight) */
+.highlight {
+    background-color: #FFD700; /* Gold background for highlight */
+    color: #333; /* Dark gray text */
+    padding: 10px; /* Add padding inside the highlighted paragraph */
+    border-left: 5px solid #FFA500; /* Add an orange left border */
+    margin: 10px 0; /* Add vertical spacing */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Selector 4: Class Selector (.image-container img) */
+.image-container img {
+    display: block; /* Remove inline spacing below the image */
+    margin: 20px auto; /* Center the image horizontally and add vertical spacing */
+    border: 5px solid #ddd; /* Add a light gray border */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center; /* Center-align footer text */
+    padding: 10px; /* Add padding inside the footer */
+    background-color: #f4f4f4; /* Light gray background */
+    font-family: 'Courier New', monospace; /* Use a monospace font */
+    color: #555; /* Medium gray text */
+    border-top: 2px solid #ccc; /* Add a light gray top border */
+}
